@@ -1,0 +1,28 @@
+.faqSectionTop {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faqSectionTop__question {
+  font-weight: 400;
+  color: rgb(66, 65, 65);
+}
+.faqSectionTop__arrow {
+  cursor: pointer;
+  width: 13px;
+  height: 10px;
+}
+.faqSectionTop__arrowRotated {
+  cursor: pointer;
+  width: 13px;
+  height: 10px;
+  transform: rotate(180deg);
+}
+.faqSectionHidden > p {
+  font-size: 13px;
+  width: 420px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
